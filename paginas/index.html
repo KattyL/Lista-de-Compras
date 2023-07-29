@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="../css-js/estilo.css">
+    <link rel="icon" href="../Imagens/icone-carrinho.png" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Lista de Compras</h1>
+    </header>
+    <div class="menus">
+ <main>
+    <div class="lista">
+      <table>
+            <input type="text" class="texto-input" placeholder="Adicionar Item"Adicionar onkeydown="verificarTecla(event, this, 'listadecompras')">
+            <button class="botao-inserir" onclick="salvarTexto(this, 'listadecompras')">Inserir</button>
+            <h2>Lista de Compras:</h2>
+    
+
+        <ul id="listadecompras">
+            <div class="container"></div>
+        </ul>
+        
+        <button class="botao-limpar" onclick="limparLista('listadecompras')">Limpar</button>
+    </div>
+        <br>
+          
+
+
+        <ul id="shoppingList"></ul>
+
+        </ul>
+    </div>
+      </table>
+    </main>
+    <div class="marcados"
+        <ul class="itens-marcados">
+            <h2>Itens Marcados:</h2>
+            <div>
+                <div>
+
+                </div>
+            </div>
+        </ul>
+    </div>
+</div>
+    <script src="../css-js/script.js"></script>
+
+
+      
+</body>
+</html>

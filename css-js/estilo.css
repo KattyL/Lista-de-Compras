@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../imagens/fundocompras.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+header {
+    background-color: #33333370;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    transition: background-color 0.3s;
+}
+
+.area-vazia {
+    background-color: #33333370;
+    padding: 30px;
+  }
+  
+  /* Estilo para a área vazia com o efeito ativado */
+  .area-vazia:hover {
+    background-color: #ff0000; /* Defina a cor que deseja quando o mouse estiver sobre a área vazia */
+  }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    font-size: 16px;
+    width: 60%;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista {
+
+    background-color: rgba(255, 255, 255, 0.822);
+    background-size:contain;
+    width: 600px;
+    height: 1300px;
+    border-collapse: collapse;
+    border: 15px dotted #ccc;
+    text-align: center;
+}
+
+.texto-salvo {
+
+    justify-items: flex-start;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.marcados {
+
+    background-color: rgba(255, 255, 255, 0.822);
+    background-size:contain;
+    width: 600px;
+    height: 1300px;
+    border-collapse: collapse;
+    border: 15px dotted #ccc;
+    text-align: center;
+
+}
+
+.menus {
+    display: flex;
+    justify-content:space-evenly;
+}
