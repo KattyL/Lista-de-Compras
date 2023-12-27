@@ -21,9 +21,8 @@ header {
     padding: 30px;
   }
   
-  /* Estilo para a área vazia com o efeito ativado */
   .area-vazia:hover {
-    background-color: #ff0000; /* Defina a cor que deseja quando o mouse estiver sobre a área vazia */
+    background-color: #ff0000;
   }
 
 .container {
